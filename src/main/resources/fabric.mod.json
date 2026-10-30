@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autolunge",
+  "version": "${version}",
+  "name": "Auto Lunge",
+  "description": "Hold a key to repeatedly spear attack/lunge every 10 ticks.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.autolunge.AutoLungeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

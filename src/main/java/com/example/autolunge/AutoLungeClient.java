@@ -14,7 +14,7 @@ import org.lwjgl.glfw.GLFW;
 
 public class AutoLungeClient implements ClientModInitializer {
     /** Ticks between lunges (20 ticks = 1 second). */
-    private static final int INTERVAL_TICKS = 10;
+    private static final int INTERVAL_TICKS = 5;
 
     private static final KeyMapping.Category CATEGORY = KeyMapping.Category.register(
             Identifier.fromNamespaceAndPath("autolunge", "main"));
